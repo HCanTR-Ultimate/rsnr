@@ -1,0 +1,46 @@
+{
+    "timestamp": "20261026_034244",
+    "total_combinations": 2,
+    "data": [
+        {
+            "index": 0,
+            "parameters": {
+                "control_rods": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "xe_avg": 0.0,
+                "xe_gradient": 0.0,
+                "coolant_density_avg": 0.65,
+                "coolant_gradient": -0.05,
+                "burnup": 0.0
+            },
+            "result": {
+                "status": "error",
+                "message": "module 'openmc' has no attribute 'reset_state'"
+            }
+        },
+        {
+            "index": 1,
+            "parameters": {
+                "control_rods": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "xe_avg": 0.0,
+                "xe_gradient": 0.0,
+                "coolant_density_avg": 0.65,
+                "coolant_gradient": -0.05,
+                "burnup": 10.0
+            },
+            "result": {
+                "status": "error",
+                "message": "module 'openmc' has no attribute 'reset_state'"
+            }
+        }
+    ]
+}
