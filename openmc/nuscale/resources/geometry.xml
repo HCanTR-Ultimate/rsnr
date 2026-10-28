@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="5" universe="1"/>
+  <cell id="2" name="fuel_pin_0" material="1" region="-1" universe="2"/>
+  <cell id="3" name="fuel_pin_1" material="7" region="1 -2" universe="2"/>
+  <cell id="4" name="fuel_pin_2" material="6" region="2 -3" universe="2"/>
+  <cell id="5" name="fuel_pin_out" material="5" region="3" universe="2"/>
+  <cell id="6" name="gd_pin_0" material="4" region="-4" universe="3"/>
+  <cell id="7" name="gd_pin_1" material="7" region="4 -5" universe="3"/>
+  <cell id="8" name="gd_pin_2" material="6" region="5 -6" universe="3"/>
+  <cell id="9" name="gd_pin_out" material="5" region="6" universe="3"/>
+  <cell id="10" name="guide_tube_0" material="5" region="-7" universe="4"/>
+  <cell id="11" name="guide_tube_1" material="6" region="7 -8" universe="4"/>
+  <cell id="12" name="guide_tube_out" material="5" region="8" universe="4"/>
+  <cell id="13" name="control_rod_0" material="10" region="-9" universe="5"/>
+  <cell id="14" name="control_rod_1" material="7" region="9 -10" universe="5"/>
+  <cell id="15" name="control_rod_2" material="8" region="10 -11" universe="5"/>
+  <cell id="16" name="control_rod_3" material="5" region="11 -12" universe="5"/>
+  <cell id="17" name="control_rod_4" material="6" region="12 -13" universe="5"/>
+  <cell id="18" name="control_rod_out" material="5" region="13" universe="5"/>
+  <cell id="19" name="end_plug_0" material="6" region="-14" universe="6"/>
+  <cell id="20" name="end_plug_out" material="5" region="14" universe="6"/>
+  <cell id="21" name="plenum_0" material="7" region="-15" universe="7"/>
+  <cell id="22" name="plenum_1" material="6" region="15 -16" universe="7"/>
+  <cell id="23" name="plenum_out" material="5" region="16" universe="7"/>
+  <cell id="24" material="5" region="-17" universe="8"/>
+  <cell id="25" material="11" region="17 -18" universe="8"/>
+  <cell id="26" material="12" region="18 -19" universe="8"/>
+  <cell id="27" material="11" region="19 -20" universe="8"/>
+  <cell id="28" material="5" region="20" universe="8"/>
+  <cell id="29" material="5" region="-17" universe="12"/>
+  <cell id="30" material="11" region="17 -18" universe="12"/>
+  <cell id="31" fill="9" region="18 -21" universe="12"/>
+  <cell id="32" fill="10" region="21 -22" universe="12"/>
+  <cell id="33" fill="11" region="22 -19" universe="12"/>
+  <cell id="34" material="11" region="19 -20" universe="12"/>
+  <cell id="35" material="5" region="20" universe="12"/>
+  <cell id="36" material="5" region="-17" universe="14"/>
+  <cell id="37" material="11" region="17 -18" universe="14"/>
+  <cell id="38" fill="9" region="18 -21" universe="14"/>
+  <cell id="39" fill="10" region="21 -22" universe="14"/>
+  <cell id="40" fill="13" region="22 -19" universe="14"/>
+  <cell id="41" material="11" region="19 -20" universe="14"/>
+  <cell id="42" material="5" region="20" universe="14"/>
+  <cell id="43" name="core" fill="15" region="-25 23 -24" universe="16"/>
+  <cell id="44" name="barrel" material="8" region="25 -26 23 -24" universe="16"/>
+  <cell id="45" name="downcomer" material="5" region="26 -27 23 -24" universe="16"/>
+  <cell id="46" name="vessel" material="9" region="27 -28 23 -24" universe="16"/>
+  <lattice id="9" name="endplug_plain">
+    <pitch>1.26 1.26</pitch>
+    <outer>1</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 4 6 6 4 6 6 4 6 6 6 6 6 
+6 6 6 4 6 6 6 6 6 6 6 6 6 4 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 4 6 6 4 6 6 4 6 6 4 6 6 4 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 4 6 6 4 6 6 4 6 6 4 6 6 4 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 4 6 6 4 6 6 4 6 6 4 6 6 4 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 4 6 6 6 6 6 6 6 6 6 4 6 6 6 
+6 6 6 6 6 4 6 6 4 6 6 4 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 </universes>
+  </lattice>
+  <lattice id="10" name="active_plain">
+    <pitch>1.26 1.26</pitch>
+    <outer>1</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 3 2 2 2 2 2 3 2 2 2 2 2 
+2 2 3 2 2 4 2 2 4 2 2 4 2 2 3 2 2 
+2 2 2 4 2 2 2 2 2 2 2 2 2 4 2 2 2 
+2 2 2 2 3 2 2 2 2 2 2 2 3 2 2 2 2 
+2 3 4 2 2 4 2 2 4 2 2 4 2 2 4 3 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 4 2 2 4 2 2 4 2 2 4 2 2 4 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 3 4 2 2 4 2 2 4 2 2 4 2 2 4 3 2 
+2 2 2 2 3 2 2 2 2 2 2 2 3 2 2 2 2 
+2 2 2 4 2 2 2 2 2 2 2 2 2 4 2 2 2 
+2 2 3 2 2 4 2 2 4 2 2 4 2 2 3 2 2 
+2 2 2 2 2 3 2 2 2 2 2 3 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </universes>
+  </lattice>
+  <lattice id="11" name="plenum_plain">
+    <pitch>1.26 1.26</pitch>
+    <outer>1</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 4 7 7 4 7 7 4 7 7 7 7 7 
+7 7 7 4 7 7 7 7 7 7 7 7 7 4 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 4 7 7 4 7 7 4 7 7 4 7 7 4 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 4 7 7 4 7 7 4 7 7 4 7 7 4 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 4 7 7 4 7 7 4 7 7 4 7 7 4 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 4 7 7 7 7 7 7 7 7 7 4 7 7 7 
+7 7 7 7 7 4 7 7 4 7 7 4 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 </universes>
+  </lattice>
+  <lattice id="13" name="plenum_rodded">
+    <pitch>1.26 1.26</pitch>
+    <outer>1</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 5 7 7 5 7 7 5 7 7 7 7 7 
+7 7 7 5 7 7 7 7 7 7 7 7 7 5 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 5 7 7 5 7 7 5 7 7 5 7 7 5 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 5 7 7 5 7 7 4 7 7 5 7 7 5 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 5 7 7 5 7 7 5 7 7 5 7 7 5 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 5 7 7 7 7 7 7 7 7 7 5 7 7 7 
+7 7 7 7 7 5 7 7 5 7 7 5 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 </universes>
+  </lattice>
+  <lattice id="15" name="core">
+    <pitch>21.5 21.5</pitch>
+    <outer>8</outer>
+    <dimension>7 7</dimension>
+    <lower_left>-75.25 -75.25</lower_left>
+    <universes>
+8 8 12 12 14 8 8 
+8 12 14 14 12 12 8 
+14 12 14 12 14 14 12 
+12 14 12 12 12 14 12 
+12 14 14 12 14 12 14 
+8 12 12 14 14 12 8 
+8 8 14 12 12 8 8 </universes>
+  </lattice>
+  <surface id="1" type="z-cylinder" coeffs="0.0 0.0 0.4096"/>
+  <surface id="2" type="z-cylinder" coeffs="0.0 0.0 0.418"/>
+  <surface id="3" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="4" type="z-cylinder" coeffs="0.0 0.0 0.4096"/>
+  <surface id="5" type="z-cylinder" coeffs="0.0 0.0 0.418"/>
+  <surface id="6" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="7" type="z-cylinder" coeffs="0.0 0.0 0.5715"/>
+  <surface id="8" type="z-cylinder" coeffs="0.0 0.0 0.6121"/>
+  <surface id="9" type="z-cylinder" coeffs="0.0 0.0 0.4331"/>
+  <surface id="10" type="z-cylinder" coeffs="0.0 0.0 0.4369"/>
+  <surface id="11" type="z-cylinder" coeffs="0.0 0.0 0.4839"/>
+  <surface id="12" type="z-cylinder" coeffs="0.0 0.0 0.5715"/>
+  <surface id="13" type="z-cylinder" coeffs="0.0 0.0 0.6121"/>
+  <surface id="14" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="15" type="z-cylinder" coeffs="0.0 0.0 0.418"/>
+  <surface id="16" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="17" type="z-plane" coeffs="-30.0"/>
+  <surface id="18" type="z-plane" coeffs="-10.0"/>
+  <surface id="19" type="z-plane" coeffs="215.0"/>
+  <surface id="20" type="z-plane" coeffs="235.0"/>
+  <surface id="21" type="z-plane" coeffs="0.0"/>
+  <surface id="22" type="z-plane" coeffs="200.0"/>
+  <surface id="23" type="z-plane" boundary="vacuum" coeffs="-60.0"/>
+  <surface id="24" type="z-plane" boundary="vacuum" coeffs="265.0"/>
+  <surface id="25" type="z-cylinder" coeffs="0.0 0.0 90.0"/>
+  <surface id="26" type="z-cylinder" coeffs="0.0 0.0 92.5"/>
+  <surface id="27" type="z-cylinder" coeffs="0.0 0.0 132.0"/>
+  <surface id="28" type="z-cylinder" boundary="vacuum" coeffs="0.0 0.0 137.2"/>
+</geometry>
